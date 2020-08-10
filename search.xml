@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title></title>
+      <link href="/2020/08/10/%E9%85%8D%E7%BD%AE%E4%B8%BB%E9%A2%98%E8%AE%B0%E5%BD%95/"/>
+      <url>/2020/08/10/%E9%85%8D%E7%BD%AE%E4%B8%BB%E9%A2%98%E8%AE%B0%E5%BD%95/</url>
+      
+        <content type="html"><![CDATA[<hr><p>写在前面<br>这是一个记录贴，写上自己从头开始的一些主题配置<br>只记录了自己使用到的部分，各部分的详细内容解释和操作可参考对应的官方文档<br>未完待续，后续会逐渐补充</p><hr><h1 id="0-开始前的准备"><a href="#0-开始前的准备" class="headerlink" title="0.开始前的准备"></a>0.开始前的准备</h1><p><a href="https://hexo.io/zh-cn/docs/">Hexo</a>博客框架</p><p><a href="https://volantis.js.org/examples/">Volantis</a>主题</p><p>如何配置默认的Volantis详见主题文档</p><h1 id="1-小组件的配置"><a href="#1-小组件的配置" class="headerlink" title="1.小组件的配置"></a>1.小组件的配置</h1><h2 id="1-1-音乐播放器"><a href="#1-1-音乐播放器" class="headerlink" title="1.1 音乐播放器"></a>1.1 音乐播放器</h2><p>修改默认歌单：</p><ul><li><p>打开该路径的文件<code> blog/themes/volantis/_config.yml</code></p><blockquote><p>注意：blog为你自定义安装博客的文件夹名称</p></blockquote></li><li><p>打开网易云音乐</p><blockquote><p>1.客户端方式</p><p>打开客户端，找到想设置的歌单</p><p><img src="C:\Users\wwwch\AppData\Roaming\Typora\typora-user-images\image-20200810140022627.png" alt="image-20200810140022627">得到一串神秘代码</p><p><code>https://music.163.com/playlist?id=2964464614&amp;userid=432693940</code></p><p>其中<img src="C:\Users\wwwch\AppData\Roaming\Typora\typora-user-images\image-20200810140145017.png" alt="image-20200810140145017">便为歌单id，复制id</p><hr><p>2.网页端方式</p><p>&lt;这是一个占位符，后续补充，或者先行自己百度/google&gt;</p></blockquote></li><li><p>修改打开的文件</p><blockquote><p>可以根据aplayer进行关键字的检索，找到下图配置项<img src="C:\Users\wwwch\AppData\Roaming\Typora\typora-user-images\image-20200810140852652.png" alt="image-20200810140852652">修改id项，并保存</p></blockquote></li></ul><p>到此，已完成音乐歌单的更换</p><blockquote><p>一些补充：</p><p>如果想更换为QQ音乐、酷狗、虾米、百度等平台的歌单</p><p>可以将aplayer设置中的server项，换成对应的平台即可。</p></blockquote><hr>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>first blog</title>
       <link href="/2020/08/04/first-blog/"/>
       <url>/2020/08/04/first-blog/</url>
