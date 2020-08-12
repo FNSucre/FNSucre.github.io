@@ -4,24 +4,49 @@
   
     
     <entry>
-      <title>配置主题记录</title>
-      <link href="/2020/08/10/%E9%85%8D%E7%BD%AE%E4%B8%BB%E9%A2%98%E8%AE%B0%E5%BD%95/"/>
-      <url>/2020/08/10/%E9%85%8D%E7%BD%AE%E4%B8%BB%E9%A2%98%E8%AE%B0%E5%BD%95/</url>
+      <title>图片测试</title>
+      <link href="/2020/08/12/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/"/>
+      <url>/2020/08/12/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/</url>
       
-        <content type="html"><![CDATA[<p>写在前面<br>这是一个记录贴，写上自己从头开始的一些主题配置<br>只记录了自己使用到的部分，各部分的详细内容解释和操作可参考对应的官方文档<br>未完待续，后续会逐渐补充</p><hr><h2 id="0-开始前的准备"><a href="#0-开始前的准备" class="headerlink" title="0.开始前的准备"></a>0.开始前的准备</h2><p><a href="https://hexo.io/zh-cn/docs/">Hexo</a>博客框架</p><p><a href="https://volantis.js.org/examples/">Volantis</a>主题</p><p>如何配置默认的Volantis详见主题文档</p><h2 id="1-小组件的配置"><a href="#1-小组件的配置" class="headerlink" title="1.小组件的配置"></a>1.小组件的配置</h2><h3 id="1-1-音乐播放器"><a href="#1-1-音乐播放器" class="headerlink" title="1.1 音乐播放器"></a>1.1 音乐播放器</h3><p>修改默认歌单：</p><ul><li><p>打开该路径的文件<code> blog/themes/volantis/_config.yml</code></p><blockquote><p>注意：blog为你自定义安装博客的文件夹名称</p></blockquote></li><li><p>打开网易云音乐</p><blockquote><p>1.客户端方式</p><p>打开客户端，找到想设置的歌单</p><p><img src="https://cdn.jsdelivr.net/gh/FNSucre/pic/images/1-001.png">得到一串神秘代码</p><p><code>https://music.163.com/playlist?id=2964464614&amp;userid=432693940</code></p><p>其中<code>id=2964464614</code>便为歌单id，复制该id</p><hr><p>2.网页端方式</p><p>&lt;这是一个占位符，后续补充，或者先行自己百度/google&gt;</p></blockquote></li><li><p>修改打开的文件</p><blockquote><p>可以根据aplayer进行关键字的检索，找到下图配置项<img src="https://cdn.jsdelivr.net/gh/FNSucre/pic/images/1-003.png" alt="image-20200810140852652">修改id项，并保存</p></blockquote></li></ul><p>到此，已完成音乐歌单的更换</p><blockquote><p>一些补充：</p><p>如果想更换为QQ音乐、酷狗、虾米、百度等平台的歌单</p><p>可以将aplayer设置中的server项，换成对应的平台即可。</p></blockquote><hr>]]></content>
+        <content type="html"><![CDATA[<p><img src="images%5C466149262.gif" alt="466149262"></p><a id="more"></a><hr>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 测试文件 </tag>
+            
+        </tags>
       
     </entry>
     
     
     
     <entry>
-      <title>first blog</title>
-      <link href="/2020/08/04/first-blog/"/>
-      <url>/2020/08/04/first-blog/</url>
+      <title>模板测试</title>
+      <link href="/2020/08/12/%E6%A8%A1%E6%9D%BF%E6%B5%8B%E8%AF%95/"/>
+      <url>/2020/08/12/%E6%A8%A1%E6%9D%BF%E6%B5%8B%E8%AF%95/</url>
       
-        <content type="html"><![CDATA[<h1 id="Fisrt-blog"><a href="#Fisrt-blog" class="headerlink" title="Fisrt blog"></a>Fisrt blog</h1><p>hello everyone!</p>]]></content>
+        <content type="html"><![CDATA[<p>这是一个模板</p><p>一共有三行</p><p>我手动划分一下范围</p><a id="more"></a><hr><p>这样会不会好看呢</p><p>我觉得应该还不错</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 测试文件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>配置主题记录</title>
+      <link href="/2020/08/10/%E9%85%8D%E7%BD%AE%E4%B8%BB%E9%A2%98%E8%AE%B0%E5%BD%95/"/>
+      <url>/2020/08/10/%E9%85%8D%E7%BD%AE%E4%B8%BB%E9%A2%98%E8%AE%B0%E5%BD%95/</url>
+      
+        <content type="html"><![CDATA[<p>写在前面<br>这是一个记录贴，写上自己从头开始的一些主题配置<br>只记录了自己使用到的部分，各部分的详细内容解释和操作可参考对应的官方文档</p><a id="more"></a><h2 id="未完待续，后续会逐渐补充"><a href="#未完待续，后续会逐渐补充" class="headerlink" title="未完待续，后续会逐渐补充"></a>未完待续，后续会逐渐补充</h2><h2 id="0-开始前的准备"><a href="#0-开始前的准备" class="headerlink" title="0.开始前的准备"></a>0.开始前的准备</h2><p><a href="https://hexo.io/zh-cn/docs/">Hexo</a>博客框架</p><p><a href="https://volantis.js.org/examples/">Volantis</a>主题</p><p>如何配置默认的Volantis详见主题文档</p><h2 id="1-小组件的配置"><a href="#1-小组件的配置" class="headerlink" title="1.小组件的配置"></a>1.小组件的配置</h2><h3 id="1-1-音乐播放器"><a href="#1-1-音乐播放器" class="headerlink" title="1.1 音乐播放器"></a>1.1 音乐播放器</h3><p>修改默认歌单：</p><ul><li><p>打开该路径的文件<code> blog/themes/volantis/_config.yml</code></p><blockquote><p>注意：blog为你自定义安装博客的文件夹名称</p></blockquote></li><li><p>打开网易云音乐</p><blockquote><p>1.客户端方式</p><p>打开客户端，找到想设置的歌单</p><p><img src="https://cdn.jsdelivr.net/gh/FNSucre/pic/images/1-001.png">得到一串神秘代码</p><p><code>https://music.163.com/playlist?id=2964464614&amp;userid=432693940</code></p><p>其中<code>id=2964464614</code>便为歌单id，复制该id</p><hr><p>2.网页端方式</p><p>&lt;这是一个占位符，后续补充，或者先行自己百度/google&gt;</p></blockquote></li><li><p>修改打开的文件</p><blockquote><p>可以根据aplayer进行关键字的检索，找到下图配置项<img src="https://cdn.jsdelivr.net/gh/FNSucre/pic/images/1-003.png" alt="image-20200810140852652">修改id项，并保存</p></blockquote></li></ul><p>到此，已完成音乐歌单的更换</p><blockquote><p>一些补充：</p><p>如果想更换为QQ音乐、酷狗、虾米、百度等平台的歌单</p><p>可以将aplayer设置中的server项，换成对应的平台即可。</p></blockquote><hr>]]></content>
       
       
       
@@ -34,7 +59,7 @@
       <link href="/2020/08/04/hello-world/"/>
       <url>/2020/08/04/hello-world/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>​        Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
       
       
