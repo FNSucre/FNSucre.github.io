@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>window10安装Phalcon框架</title>
+      <link href="/2020/08/26/window10%E5%AE%89%E8%A3%85Phalcon%E6%A1%86%E6%9E%B6/"/>
+      <url>/2020/08/26/window10%E5%AE%89%E8%A3%85Phalcon%E6%A1%86%E6%9E%B6/</url>
+      
+        <content type="html"><![CDATA[<ol><li>根据项目需求，选择了PHP7.1版本、Phalcon3.4版本。</li><li>找到Phalcon的<a href="http://phalcondoc.p2hp.com/zh/3.4/introduction">中文站</a>，准备下载。</li><li>进入Windows的下载页，如下图：<br><img src="https://cdn.jsdelivr.net/gh/FNSucre/pic/images/4-001.png" alt="img"></li><li>进入GitHub页面，点击code<br><img src="https://cdn.jsdelivr.net/gh/FNSucre/pic/images/4-002.png" alt="img"></li><li>进入code页面，在右部找到Release部分，点击进入<br><img src="https://cdn.jsdelivr.net/gh/FNSucre/pic/images/4-003.png" alt="img"></li><li>找到3.4版本的最新发布进入下载页<br><img src="https://cdn.jsdelivr.net/gh/FNSucre/pic/images/4-004.png" alt="img"></li><li>此时查看本地的php有关配置（phpinfo）<br><img src="https://cdn.jsdelivr.net/gh/FNSucre/pic/images/4-005.png" alt="img"></li><li>根据查看的配置信息，对应找到合适自己的版本下载<br><img src="https://cdn.jsdelivr.net/gh/FNSucre/pic/images/4-006.png" alt="img"></li><li>下载完成后，将压缩包中的php_phalcon文件，放置到对应版本的php路径下的ext文件夹中【..\php\php7.1.9nts\ext】<br><img src="https://cdn.jsdelivr.net/gh/FNSucre/pic/images/4-007.png" alt="img"></li><li>打开php路径下的php.ini文件，将extension=php_phalcon.dll补充至文件该位置中<br><img src="https://cdn.jsdelivr.net/gh/FNSucre/pic/images/4-008.png" alt="img"></li><li>重启服务，打开php配置页面,显示有phalcon内容即为成功<br><img src="https://cdn.jsdelivr.net/gh/FNSucre/pic/images/4-009.png" alt="img"></li></ol><p>到此你已经安装成功啦。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>配置心得</title>
       <link href="/2020/08/12/%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97/"/>
       <url>/2020/08/12/%E9%85%8D%E7%BD%AE%E5%BF%83%E5%BE%97/</url>
@@ -14,45 +33,7 @@
       
         <tags>
             
-            <tag> 心得 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>图片测试</title>
-      <link href="/2020/08/12/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/"/>
-      <url>/2020/08/12/%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95/</url>
-      
-        <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/FNSucre/pic/images/2-001.gif" alt="466149262"></p><a id="more"></a><hr>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 测试文件 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>模板测试</title>
-      <link href="/2020/08/12/%E6%A8%A1%E6%9D%BF%E6%B5%8B%E8%AF%95/"/>
-      <url>/2020/08/12/%E6%A8%A1%E6%9D%BF%E6%B5%8B%E8%AF%95/</url>
-      
-        <content type="html"><![CDATA[<p>这是一个模板</p><p>一共有三行</p><p>我手动划分一下范围</p><a id="more"></a><hr><p>这样会不会好看呢</p><p>我觉得应该还不错</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 测试文件 </tag>
+            <tag> 主题教程 </tag>
             
         </tags>
       
@@ -69,18 +50,11 @@
       
       
       
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2020/08/04/hello-world/"/>
-      <url>/2020/08/04/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>​        Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
+        <tags>
+            
+            <tag> 主题教程 </tag>
+            
+        </tags>
       
     </entry>
     
