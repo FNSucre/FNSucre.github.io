@@ -4,13 +4,19 @@
   
     
     <entry>
-      <title>xdebug配置</title>
-      <link href="/2020/09/09/xdebug%E9%85%8D%E7%BD%AE/"/>
-      <url>/2020/09/09/xdebug%E9%85%8D%E7%BD%AE/</url>
+      <title>window10安装xdebug</title>
+      <link href="/2020/09/09/window10%E5%AE%89%E8%A3%85xdebug/"/>
+      <url>/2020/09/09/window10%E5%AE%89%E8%A3%85xdebug/</url>
       
         <content type="html"><![CDATA[<p>在使用phpstrom中需要用到xdebug进行调试，记录自己的过程：</p><p>教程相较于安装phalcon来说简单些，官方甚至为你准备了详细的教程</p><p>具体操作如下：</p><a id="more"></a><h4 id="1-打开xdebug官网-找到历史版本页"><a href="#1-打开xdebug官网-找到历史版本页" class="headerlink" title="1.打开xdebug官网,找到历史版本页"></a>1.打开xdebug官网,找到<a href="https://xdebug.org/download/historical">历史版本页</a></h4><p><img src="https://cdn.jsdelivr.net/gh/FNSucre/pic/images/005/image-20200827204848362.png" alt="img"></p><p>点击红框中的installation instructions</p><h4 id="2-打开自己的phpinfo页面，右键，或者F12查看该页面源代码，全选复制"><a href="#2-打开自己的phpinfo页面，右键，或者F12查看该页面源代码，全选复制" class="headerlink" title="2.打开自己的phpinfo页面，右键，或者F12查看该页面源代码，全选复制"></a>2.打开自己的phpinfo页面，右键，或者F12查看该页面源代码，全选复制</h4><p><img src="https://cdn.jsdelivr.net/gh/FNSucre/pic/images/005/image-20200827205148099.png" alt="img"></p><h4 id="3-将复制的内容粘贴进刚才进来的页面中"><a href="#3-将复制的内容粘贴进刚才进来的页面中" class="headerlink" title="3.将复制的内容粘贴进刚才进来的页面中"></a>3.将复制的内容粘贴进刚才进来的页面中</h4><p><img src="https://cdn.jsdelivr.net/gh/FNSucre/pic/images/005/image-20200827205345410.png" alt="img"></p><h4 id="4-后续操作步骤官方已经给出，如图"><a href="#4-后续操作步骤官方已经给出，如图" class="headerlink" title="4.后续操作步骤官方已经给出，如图"></a>4.后续操作步骤官方已经给出，如图</h4><p><img src="https://cdn.jsdelivr.net/gh/FNSucre/pic/images/005/image-20200827205423479.png" alt="img"></p><h5 id="4-1下载官方提供的文件"><a href="#4-1下载官方提供的文件" class="headerlink" title="4.1下载官方提供的文件"></a>4.1下载官方提供的文件</h5><p><img src="https://cdn.jsdelivr.net/gh/FNSucre/pic/images/005/image-20200827205537392.png" alt="img"></p><h5 id="4-2-将下载的文件放入你自己对应的目录下"><a href="#4-2-将下载的文件放入你自己对应的目录下" class="headerlink" title="4.2 将下载的文件放入你自己对应的目录下"></a>4.2 将下载的文件放入你自己对应的目录下</h5><p><img src="https://cdn.jsdelivr.net/gh/FNSucre/pic/images/005/image-20200827205704302.png" alt="img"></p><h5 id="4-3-打开对应文件的目录文件，如下图红框1，将下图红框2的部分，粘贴到文件最后一行"><a href="#4-3-打开对应文件的目录文件，如下图红框1，将下图红框2的部分，粘贴到文件最后一行" class="headerlink" title="4.3 打开对应文件的目录文件，如下图红框1，将下图红框2的部分，粘贴到文件最后一行"></a>4.3 打开对应文件的目录文件，如下图红框1，将下图红框2的部分，粘贴到文件最后一行</h5><p>效果如下图</p><p><img src="https://cdn.jsdelivr.net/gh/FNSucre/pic/images/005/image-20200827205719382.png" alt="img"></p><h5 id="4-4-保存退出，重新启动web服务，查看phpinfo信息"><a href="#4-4-保存退出，重新启动web服务，查看phpinfo信息" class="headerlink" title="4.4 保存退出，重新启动web服务，查看phpinfo信息"></a>4.4 保存退出，重新启动web服务，查看phpinfo信息</h5><p><img src="https://cdn.jsdelivr.net/gh/FNSucre/pic/images/005/image-20200827205819328.png" alt="img"></p><p>到此，已经在Windows10安装完成xdebug</p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
       
     </entry>
     
